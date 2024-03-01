@@ -24,4 +24,4 @@ project/
 Dans le premier notebook, après avoir cherché les paramètres optimaux pour mon modèle, j'ai testé d'autres paramètres en suivant un tutoriel, améliorant les performances du modèle (finalement sauvegardé pour la suite du projet.
 
 En ce qui concerne les images et dessins, le modèle renvoie des résultats très proches les uns des autres, peu importe l'image fournie. <br>
-Les probabilités calculées varient légèrement, mais 5 est toujours renvoyée en tant que prédiction car il s'agit de la probabilité la plus haute parmi les 10 options.
+Les probabilités calculées varient légèrement, mais 5 est toujours renvoyée en tant que prédiction car il s'agit de la probabilité la plus haute parmi les 10 options. (en attente de correctif)
