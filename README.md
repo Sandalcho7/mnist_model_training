@@ -8,9 +8,9 @@ This project consists of two Jupyter notebooks that explore and analyze the MNIS
 project/
 │
 ├── .gitignore
-├── mnist_fashion.ipynb             # Notebook for model training on fashion version of MNIST dataset
-├── mnist.ipynb                     # Main notebook, with model trained on MNIST dataset
 ├── README.md
+├── mnist.ipynb                     # Main notebook, with model trained on MNIST dataset
+├── mnist_fashion.ipynb             # Notebook for model training on fashion version of MNIST dataset
 └── requirements.txt                # Dependencies to install
 ```
 
