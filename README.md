@@ -17,11 +17,11 @@ project/
 ## Notebooks Overview
 
 ### MNIST Exploration
-In this notebook, I:
-- Loaded and preprocessed the MNIST dataset
-- Visualized sample images and explored data distribution
-- Implemented and trained a machine learning model for digit recognition
-- Evaluated the model's performance and made predictions on test data
+This notebook includes:
+- Loading and preprocessing the MNIST dataset
+- Visualizing sample images and exploring data distribution
+- Implementing and training a machine learning model for digit recognition
+- Evaluating the model's performance and making predictions on test data
 
 ### Fashion MNIST Exploration
 This notebook follows a similar structure to the MNIST exploration, but focuses on the Fashion MNIST dataset. It includes:
