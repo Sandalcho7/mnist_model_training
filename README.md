@@ -1,24 +1,38 @@
-# SIMPLON DEV IA | Brief 13
+# MNIST exploration and prediction
 
-## Le facteur et le MNIST
+## Context
+This project consists of two Jupyter notebooks that explore and analyze the MNIST and Fashion MNIST datasets. It was my first experience working with these popular machine learning datasets.
 
-### Contexte
-
-Depuis plus de 30 ans, la Poste utilise l'OCR (Optical Character Recognition) pour reconnaître le code postal sur les courriers envoyés. <br>
-Vous êtes facteur (et développeur IA à vos heures perdues) et vous souhaitez étendre ce système à la reconnaissance d'adresses entières.
-
-### Structure du projet
-
+## Project structure
 ```bash
 project/
 │
 ├── .gitignore
+├── mnist_fashion.ipynb             # Notebook for model training on fashion version of MNIST dataset
+├── mnist.ipynb                     # Main notebook, with model trained on MNIST dataset
 ├── README.md
-├── mnist.ipynb    # Main notebook, with model trained on MNIST dataset
-├── mnist_fashion.ipynb    # Notebook with model trained on fashion MNIST
-└── recon.ipynb    # Notebook testing our first model (MNIST trained) on personal images and drawings
+└── requirements.txt                # Dependencies to install
 ```
 
-### Notes
+## Notebooks Overview
 
-Dans le premier notebook, après avoir cherché les paramètres optimaux pour mon modèle, j'ai testé d'autres paramètres en suivant un tutoriel, améliorant les performances du modèle (finalement sauvegardé pour la suite du projet.
+### MNIST Exploration
+In this notebook, I:
+- Loaded and preprocessed the MNIST dataset
+- Visualized sample images and explored data distribution
+- Implemented and trained a machine learning model for digit recognition
+- Evaluated the model's performance and made predictions on test data
+
+### Fashion MNIST Exploration
+This notebook follows a similar structure to the MNIST exploration, but focuses on the Fashion MNIST dataset. It includes:
+- Data loading and preprocessing of Fashion MNIST
+- Visualization of clothing item samples
+- Model implementation and training for clothing classification
+- Performance evaluation and predictions on fashion items
+
+## Key Learnings
+Through this project, I gained hands-on experience with:
+- Working with image datasets in machine learning
+- Data preprocessing and visualization techniques
+- Implementing and training models for image classification
+- Evaluating model performance and making predictions
